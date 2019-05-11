@@ -8,7 +8,5 @@ def main():
         tmp_list.append(data[i])
         print(list_median_calculator(sorted(tmp_list)))
 
-
-
 if __name__ == "__main__":
     main()
