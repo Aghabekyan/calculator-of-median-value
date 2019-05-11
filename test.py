@@ -16,4 +16,4 @@ for key in tested_files_dict:
         tmp_list.append(input_data[i])
         result = list_median_calculator(sorted(tmp_list))
         print(result, output_data[i])
-        assert result == output_data[i], "Inconsistency in line {0} of output file {1}." .format(i, tested_files_dict[key])
+        assert result == output_data[i], "Inconsistency in line {0} of output file {1}." .format(i+1, tested_files_dict[key])
